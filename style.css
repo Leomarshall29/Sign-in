@@ -1,0 +1,88 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image: url(./img/last.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+.right{
+    position: absolute;
+    width: 360px;
+    right: 60%;
+    height: 530px;
+    background: #ffff;
+    border-radius: 25px;
+    text-align: center;
+    top: calc(60% - 580px/2);
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+    color: rgb(43, 159, 172);
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+input[type=email],input[type="password"]{
+    border: none;
+    background-color: none ;
+    font-size: 20px;
+    color: #85b6ff;
+    padding: 10px 5px;
+
+    margin: 12px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color: #05419b;
+    font-size: 18px;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;
+    color: #85b6ff;
+    margin: 20px;
+}
+button{
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    left: 1273px;
+    top: 780px;
+    cursor: pointer;
+    background-color: #85b6ff;
+
+
+}
+.link{
+    text-align: center;
+    display: block;
+    margin: 25px;
+    color: #85b6ff;
+
+}
+@media only screen and (max-width: 700px){
+    .right{
+        left: calc(68% - 500px/2);
+    }
+}
